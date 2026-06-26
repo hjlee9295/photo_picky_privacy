@@ -26,13 +26,15 @@
 </head>
 <body>
     <h1>Privacy Policy</h1>
-    <p class="date">Effective Date: June 20, 2026</p>
+    <p class="date">Effective Date: June 26, 2026</p>
 
     <p>PhotoPicky ("we", "our", or "the app") is committed to protecting your privacy. This Privacy Policy explains what information we collect, how we use it, and your choices regarding your data.</p>
 
     <h2>1. Information We Collect</h2>
 
     <p><strong>Photos:</strong> When you use the "Analyze with AI" feature, selected photos are uploaded to our secure servers for AI-based quality analysis. Photos are processed temporarily and are automatically deleted from our servers within 30 days.</p>
+
+    <p><strong>Face Data:</strong> As part of the photo analysis process, our servers may detect and analyze faces within your uploaded photos. This processing is performed entirely on our servers — no face detection or recognition occurs on your device. The face data we derive includes: (a) face location coordinates (bounding boxes) within each photo, and (b) mathematical face embeddings used solely for grouping photos by the same person ("face clustering"). This face data is used exclusively for two purposes: evaluating photo quality (e.g., detecting closed eyes, smile quality, and obstructed faces) and grouping your photos by person so you can filter results. Face data is <strong>never</strong> used for biometric identification of individuals, user profiling, or advertising. Face data is <strong>never</strong> shared with any third parties. All face data is stored on our servers (Amazon Web Services, US region) and is associated only with your photo folder — not linked to any real-world identity. Face data is automatically deleted when you delete the associated folder, or within 30 days of photo upload, whichever comes first. You may also delete your account to remove all associated face data immediately.</p>
 
     <p><strong>Account Information:</strong> If you sign in with Google, we receive your name, email address, and profile picture from Google. This information is used solely to identify your account and enable data sync across devices.</p>
 
@@ -43,6 +45,7 @@
     <h2>2. How We Use Your Information</h2>
     <ul>
         <li>To analyze your photos using AI and provide quality rankings</li>
+        <li>To detect and analyze faces in your photos for quality scoring (closed eyes, smile, obstructed faces) and to group photos by person (face clustering)</li>
         <li>To sync your settings and favorites across devices (when signed in)</li>
         <li>To send push notifications when analysis is complete</li>
         <li>To improve app performance and fix bugs</li>
@@ -50,6 +53,7 @@
 
     <h2>3. Data Storage & Security</h2>
     <p>Your photos are uploaded via HTTPS to Amazon Web Services (AWS) servers. All data transmission is encrypted. Uploaded photos are stored temporarily and deleted automatically within 30 days of upload.</p>
+    <p>Face data derived from your photos (face coordinates and clustering embeddings) is stored on our servers alongside your photo folder data. Face data is retained only as long as the associated folder exists and is automatically deleted when you delete the folder, or within 30 days of the original photo upload, whichever comes first.</p>
     <p>Your account data (settings, favorites) is stored on our servers and associated with your Google account. You can delete your account data at any time by signing out.</p>
 
     <h2>4. Third-Party Services</h2>
@@ -58,7 +62,7 @@
         <li><strong>Google Sign-In (Firebase Authentication)</strong> — for user authentication. Subject to <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</li>
         <li><strong>Amazon Web Services (AWS)</strong> — for photo storage and server infrastructure.</li>
     </ul>
-    <p>We do not sell, share, or provide your personal data to third parties for advertising or marketing purposes.</p>
+    <p>We do not sell, share, or provide your personal data — including face data — to any third parties for advertising, marketing, or any other purposes. Face data is processed and stored exclusively on our own infrastructure and is never disclosed to third parties.</p>
 
     <h2>5. Your Choices</h2>
     <ul>
